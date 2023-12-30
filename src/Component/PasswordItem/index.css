@@ -1,0 +1,132 @@
+@media (min-width: 992px) {
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 2px #64748b solid;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .icon {
+    background-color: #10b981;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 200px;
+    padding: 10px;
+    text-align: center;
+    width: 3vw;
+  }
+  .name-para {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .stars-image {
+    height: 4vh;
+    width: 10vw;
+  }
+  .delete-image {
+    height: 4vh;
+    width: 2vw;
+    margin-top: 20px;
+  }
+  .button {
+    border: 0 none;
+    background-color: transparent;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 2px #64748b solid;
+    width: 30vw;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .icon {
+    background-color: #10b981;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 200px;
+    padding: 10px;
+    text-align: center;
+    width: 5vw;
+  }
+  .name-para {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .stars-image {
+    height: 4vh;
+    width: 16vw;
+  }
+  .delete-image {
+    height: 4vh;
+    width: 3vw;
+    margin-top: 20px;
+  }
+  .button {
+    border: 0 none;
+    background-color: transparent;
+  }
+}
+@media (max-width: 576px) {
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 2px #64748b solid;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .icon {
+    background-color: #10b981;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 200px;
+    padding: 10px;
+    text-align: center;
+    width: 9vw;
+  }
+  .name-para {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  .stars-image {
+    height: 4vh;
+    width: 40vw;
+  }
+  .delete-image {
+    height: 4vh;
+    width: 6vw;
+    margin-top: 20px;
+  }
+  .button {
+    border: 0 none;
+    background-color: transparent;
+  }
+}
